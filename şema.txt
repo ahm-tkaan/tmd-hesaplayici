@@ -1,0 +1,21 @@
+tmd_analyzer/
+│
+├── main.py                  # Ana program başlatıcı
+├── requirements.txt         # Program bağımlılıkları
+├── README.md                # Proje açıklaması
+│
+├── assets/                  # Program görselleri ve kaynakları
+│   ├── favicon.png
+│   └── logo.png
+│
+├── ui/                      # Kullanıcı arayüzü modülleri
+│   ├── __init__.py
+│   ├── main_window.py       # Ana pencere sınıfı
+│   ├── parameter_panel.py   # Parametre giriş paneli
+│   └── graph_panel.py       # Grafik gösterim paneli
+│
+└── core/                    # Çekirdek hesaplama ve analiz modülleri
+    ├── __init__.py
+    ├── tmd_calculator.py    # TMD hesaplama motoru
+    ├── analyzers.py         # Analiz fonksiyonları
+    └── visualizers.py       # Görselleştirme araçları
